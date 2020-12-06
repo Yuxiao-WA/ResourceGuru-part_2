@@ -1,0 +1,35 @@
+{
+  "name": "part-2",
+  "version": "1.0.0",
+  "description": "Part two of the code challenge from Resource Guru",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoeW/ResourceGuru-part_2.git"
+  },
+  "keywords": [
+    "interview"
+  ],
+  "author": "Yuxiao Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoeW/ResourceGuru-part_2/issues"
+  },
+  "homepage": "https://github.com/ZoeW/ResourceGuru-part_2#readme",
+  "devDependencies": {
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.10",
+    "assert": "^2.0.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  }
+}
